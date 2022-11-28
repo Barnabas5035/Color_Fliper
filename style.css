@@ -1,0 +1,72 @@
+body {
+  background-color: aliceblue;
+  font-size: 0.87rem;
+  line-height: 1.5;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: grid;
+  box-shadow: 3px 3px 3px black;
+  align-items: center;
+  height: 3rem;
+  background: white;
+}
+.nav-center {
+  display: flex;
+  margin: 0 auto;
+  width: 90vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-center h4 {
+  color: blue;
+}
+.nav-link {
+  display: flex;
+  list-style-type: none;
+}
+nav a {
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: 1rem;
+  color: blue;
+  letter-spacing: 0px;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.contianer {
+  text-align: center;
+}
+.contianer h2 {
+  background: black;
+  color: white;
+  border-radius: 2rem;
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+}
+.color {
+  color: blue;
+}
+/* .btn-hero {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  background: transparent;
+  color: black;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700;
+  border: 2px solid;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(red, green, blue, alpha);
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition:none;
+
+} */
